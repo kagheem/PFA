@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>520</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>550</width>
+     <height>500</height>
+    </rect>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>29</y>
+      <width>281</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/IMAGES/GestionStock.png);
+background-color: rgb(27, 19, 57);
+border-bottom-left-radius:50px;
+background-color: rgb(255, 255, 255);
+background-color: rgb(27, 19, 57);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>image/image.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>211</width>
+      <height>430</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+border-bottom-right-radius:50px;
+
+background-color: rgb(27, 19, 57);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>80</y>
+      <width>141</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Snap ITC</family>
+      <pointsize>28</pointsize>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(181, 120, 255);
+font: 28pt &quot;Snap ITC&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Log In</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="usernamefield">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>160</y>
+      <width>171</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(27, 19, 57);
+color: rgb(251, 130, 255);
+
+
+border:none;
+border-bottom :2px solid ;
+border-bottom-color: rgb(255, 170, 255);
+padding-bottom:7px;
+
+
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Username</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordfield">
+    <property name="geometry">
+     <rect>
+      <x>339</x>
+      <y>220</y>
+      <width>171</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: rgb(27, 19, 57);
+color: rgb(251, 130, 255);
+
+
+border:none;
+border-bottom :2px solid ;
+border-bottom-color: rgb(255, 170, 255);
+padding-bottom:7px;
+
+</string>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="login_btn">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>290</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <strikeout>false</strikeout>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton#login_btn{
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgb(181, 120, 255), stop:1 rgb(255, 170, 255));
+
+	color:rgba(255, 255, 255, 210);
+
+	border-radius:5px;
+
+}
+
+
+
+
+QPushButton#login_btn:hover{
+
+	background-color: qlineargradient(spread:pad, x1:0, y1:0.505682, x2:1, y2:0.477, stop:0 rgb(181, 120, 255), stop:1 rgb(255, 170, 255));
+
+}
+
+
+
+QPushButton#login_btn:pressed{
+
+	padding-left:5px;
+
+	padding-top:5px;
+
+	background-color:rgb(251, 130, 255);
+
+}
+
+
+
+QPushButton#login_btn_2, #login_btn_3, #login_btn_4, #login_btn_5{
+
+	background-color: rgba(0, 0, 0, 0);
+
+	color:rgb(251, 130, 255);
+
+}
+
+
+
+QPushButton#login_btn_2:hover, #login_btn_3:hover, #login_btn_4:hover, #login_btn_5:hover{
+
+	color: rgb(251, 130, 255);
+
+}
+
+
+
+QPushButton#login_btn_2:pressed, #login_btn_3:pressed, #login_btn_4:pressed, #login_btn_5:pressed{
+
+	padding-left:5px;
+
+	padding-top:5px;
+
+	color:rgb(251, 130, 255);;
+
+}
+
+</string>
+    </property>
+    <property name="text">
+     <string>LOGIN</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>ic/icons8-connexion-32.png</normaloff>ic/icons8-connexion-32.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="createacc_btn">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>386</y>
+      <width>171</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+      <italic>false</italic>
+      <bold>true</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 170, 255);
+background-color: rgb(27, 19, 57);</string>
+    </property>
+    <property name="text">
+     <string>New? Create New Account</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>ic/icons8-ajouter-32.png</normaloff>ic/icons8-ajouter-32.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>340</y>
+      <width>191</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quitter">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>30</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+background-color: rgb(27, 19, 57);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>Web/icons8-annuler-stickers-32.png</normaloff>Web/icons8-annuler-stickers-32.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>96</width>
+      <height>96</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>220</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(27, 19, 57);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>ic/icons8-mot-de-passe-100.png</normaloff>ic/icons8-mot-de-passe-100.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>160</y>
+      <width>31</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(27, 19, 57);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>ic/icons8-utilisateur-masculin-64.png</normaloff>ic/icons8-utilisateur-masculin-64.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>40</width>
+      <height>40</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
